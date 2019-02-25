@@ -1,0 +1,8 @@
+{
+  "name": "docker-pdf2htmlex",
+  "tagline": "Convert PDF to HTML without losing text or format.",
+  "license": {
+    "name": "MIT"
+  },
+  "tags": ["docker", "pdf2htmlex"]
+}
