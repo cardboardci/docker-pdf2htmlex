@@ -1,0 +1,10 @@
+---
+name: Docker PDF2HTMLEx
+slug: docker-pdf2htmlex
+project: cardboardci
+namespace: []
+description: Convert PDF to HTML without losing text or format.
+license:
+  name: MIT
+tags:
+  - docker
