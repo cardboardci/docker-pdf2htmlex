@@ -1,0 +1,8 @@
+---
+name: github
+provider: github.com
+repository: docker-pdf2htmlex
+url: https://github.com/cardboardci/docker-pdf2htmlex
+clone:
+  ssh: git@github.com:cardboardci/docker-pdf2htmlex.git
+  https: https://github.com/cardboardci/docker-pdf2htmlex.git
