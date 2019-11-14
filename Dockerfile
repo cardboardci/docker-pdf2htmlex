@@ -1,5 +1,7 @@
-FROM cardboardci/ci-core:latest
+FROM cardboardci/ci-core:focal
 USER root
+
+ARG DEBIAN_FRONTEND=noninteractive
 
 COPY provision/install.sh /tmp/install.sh
 RUN bash /tmp/install.sh ; sync ; rm /tmp/install.sh
