@@ -3,12 +3,11 @@ name: Check for dependencies
 on:
   schedule:
   - cron: "0 8 * * 3"
-
-  push:
-    paths:
-      - .github/workflows/versions.yml
-      - provision/pkglist
-      - tools/apt.bash
+  # push:
+  #   paths:
+  #     - .github/workflows/versions.yml
+  #     - provision/pkglist
+  #     - tools/apt.bash
 
 jobs:
   apt-get:
