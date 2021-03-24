@@ -1,0 +1,18 @@
+slug: docker-pdf2htmlex
+description: Convert PDF to HTML without losing text or format.
+project: cardboardci
+namespace: docker
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2019
+topics: |-
+  [
+    "dockerfile",
+    "pdf2html",
+    "pdf-document-processor",
+    "pdf",
+    "html"
+  ]
